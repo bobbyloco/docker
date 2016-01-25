@@ -9,7 +9,7 @@ RUN apt-get update -qq \
     libcurl4-openssl-dev \
     libssl-dev \
     libsqlite3-dev \
-    libxml3-dev \
+    libxml2-dev \
     qpdf \
     vim \
   && apt-get clean \
