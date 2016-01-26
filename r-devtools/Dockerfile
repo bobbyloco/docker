@@ -21,9 +21,3 @@ RUN apt-get update -qq \
 RUN install2.r --error \
   devtools \
   testthat
-
-# Install any other packages that I commonly use
-RUN install2.r --error \
-  dplyr \
-  ggplot2 \
-  rstan 
