@@ -4,4 +4,5 @@ FROM zamora/r-devtools
 RUN install2.r --error \
   dplyr \
   ggplot2 \
-  rstan 
+  rstan \
+  tidyr
