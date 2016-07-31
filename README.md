@@ -8,6 +8,12 @@ These docker containers are adaptations of the [rocker](https://github.com/rocke
 | r-devtools (base + pandoc + devtools)           | [good](https://registry.hub.docker.com/u/zamora/r-devtools/)
 | r-dsci (devtools + dplyr, rstan, etc...)        | [good](https://registry.hub.docker.com/u/zamora/r-dsci/)
 
+### r-devtools
+Builds on cardcorp/r-pandoc and adds R packages `devtools` and `testthat` and linux libraries `libcurl`, `libssl`, `sqlite3`, `xml2`, `qpdf`, and `vim`.
+
+### r-dsci
+Builds on r-devtools and adds R packages `dplyr`, `ggplot2`, `rstan`, and `tidyr` 
+
 ## Example build
 ```sh
 cd /package/dir
