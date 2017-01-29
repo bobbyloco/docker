@@ -10,7 +10,6 @@ RUN install2.r --error \
   lubridate \
   purrr \
   readr \
-  rstan \
   tibble \
   tidyr \
   xml2
