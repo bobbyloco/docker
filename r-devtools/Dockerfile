@@ -12,6 +12,7 @@ RUN apt-get update -qq \
     libxml2-dev \
     qpdf \
     vim \
+    git \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/ \
   && rm -rf /tmp/downloaded_packages/ /tmp/*.rds
